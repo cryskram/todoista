@@ -7,7 +7,9 @@ const thisiscool = () => {
       <h1 className="text-3xl text-green-700">This is a about us page</h1>
       <h1 className="text-3xl text-green-700">This is a about us page</h1>
       <h1 className="text-3xl text-green-700">This is a about us page</h1>
-      <h1 className="text-3xl text-green-700">This is a about us page</h1>
+      <h1 className="text-3xl text-green-700 bg-blue-500">
+        This is a about us page
+      </h1>
     </div>
   );
 };

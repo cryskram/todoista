@@ -31,7 +31,7 @@ function Home() {
 
   const submitBtn = (e: React.FormEvent) => {
     e.preventDefault();
-    alert(`The animal you entered was: ${text}`);
+    alert(`The animal you entered was: ${text.split(",")}`);
   };
 
   return (
